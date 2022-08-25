@@ -40,7 +40,7 @@ if __name__ == '__main__':
   ]
   missing = find_missing(delivery_list, bag)
   if len(missing) > 0:
-    # print(delivery_list,bag)
+    #print(delivery_list,bag)
     print("Missing items: \n")
     for item in missing:
       for i in bag:
